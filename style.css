@@ -5,7 +5,7 @@ body{
     margin: 0;
 }
 
-/*------------Top section--------  */
+/*----------****************Top section***********************--------  */
 
 
 .top-banner{
@@ -47,7 +47,8 @@ h1 {
 
 
 
-/* Player section style  */
+/* ------------*************Player section style ----------- **************/
+
 .container{
     margin-top: 70px;
     background-color: #FFFFFF;
@@ -79,7 +80,7 @@ h1 {
 }
 
 
-/* final team section  */
+/* *******************-------------final team section **************-------------- */
 
 .team-heading{
     color: black;
@@ -104,7 +105,7 @@ h1 {
 }
 
 
-/* BLOG SECTION  */
+/*--------------------------------- BLOG SECTION  -----------------------*/
 
 
 .blogs{
@@ -152,9 +153,11 @@ footer img{
 }
 
 
-/* media query  */
+/*-------------------------------------- media query------------------------------  */
 
-/* mobile  */
+/* -----------mobile  ----------*/
+
+
 @media only screen and (max-width:688px) {
     .top-banner{
         flex-direction: column;
@@ -183,7 +186,10 @@ footer img{
 }
 
 
-/* tablet */
+
+/* ------------------tablet----------- */
+
+
 @media only screen and (min-width:688px) and (max-width:992px) {
     .top-banner{
         flex-direction: column;
